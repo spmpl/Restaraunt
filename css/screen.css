@@ -1,0 +1,197 @@
+@charset "UTF-8";
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+body {
+  min-width: 1180px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 1180px;
+  margin: 0 auto;
+}
+
+.main-header {
+  margin: 35px 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+.main-header a {
+  color: #000000;
+  text-decoration: none;
+}
+.main-header .logo {
+  float: left;
+  display: inline-block;
+}
+.main-header .logo img {
+  width: 94px;
+  height: 23px;
+}
+.main-header .main-navigation {
+  float: left;
+  text-transform: uppercase;
+  margin-left: 380px;
+}
+.main-header .main-navigation ul {
+  font-size: 0;
+}
+.main-header .main-navigation li {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 20px;
+  vertical-align: top;
+}
+.main-header .main-navigation a {
+  display: block;
+  padding: 7px 20px;
+  text-decoration: none;
+}
+.main-header .main-navigation a:hover {
+  color: #985e5b;
+}
+
+.user-block {
+  float: right;
+  max-width: 140px;
+}
+.user-block .search {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 15px;
+  background: url("../img/sprite.png") no-repeat;
+  width: 12px;
+  height: 12px;
+  background-position: -15px -57px;
+}
+.user-block .search::after {
+  content: "";
+  position: relative;
+  display: block;
+  right: 18px;
+  top: 2px;
+  width: 2px;
+  height: 10px;
+  background-color: #000;
+}
+.user-block .cart {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 9px;
+  background: url("../img/sprite.png") no-repeat;
+  width: 15px;
+  height: 12px;
+  background-position: -15px -15px;
+}
+
+.courusele .all-slider .slide-1 {
+  background: url("../img/slide-1.jpg") 100% 100% no-repeat fixed;
+  width: 100%;
+  height: 850px;
+  background-size: cover;
+}
+.courusele .all-slider img::before {
+  content: '';
+  position: absolute;
+  display: block;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+}
+.courusele .next,
+.courusele .prev {
+  display: inline-block;
+  position: relative;
+  bottom: 179px;
+  width: 55px;
+  height: 55px;
+  background: none;
+  box-shadow: 0 0 0 transparent;
+  /* ╨Я╨░╤А╨░╨╝╨╡╤В╤А╤Л ╤В╨╡╨╜╨╕ */
+  border: 2px solid white;
+  background: url("../img/sprite-arrow.png") no-repeat center;
+}
+.courusele .next {
+  background-position: 6px 1px;
+}
+.courusele .prev {
+  background-position: 4px -48px;
+}
+.courusele .text-slider {
+  display: inline-block;
+  position: relative;
+  bottom: 200px;
+  float: right;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+.courusele .text-slider b {
+  font-size: 50px;
+  color: #fff;
+}
+.courusele .text-slider span {
+  font-size: 30px;
+  color: #985e5b;
+}
