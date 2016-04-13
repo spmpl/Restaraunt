@@ -147,7 +147,7 @@ body {
   background-position: -15px -15px;
 }
 
-.courusele .all-slider .slide-1 {
+.main-courusele .all-slider .slide-1 {
   background: url("../img/slide-1.jpg") 100% 100% no-repeat fixed;
   box-shadow: 0 0 0 448px rgba(0, 0, 0, 0.33) inset;
   width: 100%;
@@ -198,4 +198,38 @@ body {
   font-size: 30px;
   word-spacing: 12px;
   color: #985e5b;
+}
+
+.about-gallery {
+  float: left;
+  margin-left: 120px;
+  margin-right: 80px;
+}
+.about-gallery .about-photo-1 img {
+  margin-left: 50px;
+}
+.about-gallery .about-photo-2 img {
+  margin-top: -70px;
+}
+
+.about-text {
+  display: inline-block;
+  width: 215px;
+  margin-right: 141px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  float: right;
+}
+.about-text h2 {
+  margin-bottom: 10px;
+  font-size: 50px;
+}
+.about-text b {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #985e5b;
+}
+.about-text p {
+  margin-top: 45px;
+  font-weight: 400;
 }
