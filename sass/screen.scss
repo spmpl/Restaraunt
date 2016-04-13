@@ -3,163 +3,165 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
-@import "compass/reset";
+ @import "compass/reset";
 
-body{
-	min-width: 1180px;;
-}
+ body{
+ 	min-width: 1180px;;
+ }
 
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
-}
+ .clearfix::after {
+ 	content: "";
+ 	display: table;
+ 	clear: both;
+ }
 
-.container {
-  width: 1180px;
-  margin: 0 auto;
+ .container {
+ 	width: 1180px;
+ 	margin: 0 auto;
 
-}
+ }
 
-.main-header{
-	margin: 35px 0;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700; 
-	a{  
-		color: #000000;
-		text-decoration: none;
-	}
+ .main-header{
+ 	margin: 35px 0;
+ 	font-family: 'Montserrat', sans-serif;
+ 	font-weight: 700; 
+ 	a{  
+ 		color: #000000;
+ 		text-decoration: none;
+ 	}
 
-	.logo{
-		float: left;
-		display: inline-block;
-		img{
-			width: 94px;
-			height: 23px;
-		}
-	}
+ 	.logo{
+ 		float: left;
+ 		display: inline-block;
+ 		img{
+ 			width: 94px;
+ 			height: 23px;
+ 		}
+ 	}
 
-	.main-navigation{
-		float: left;
-		text-transform: uppercase;
-		margin-left: 380px;
+ 	.main-navigation{
+ 		float: left;
+ 		text-transform: uppercase;
+ 		margin-left: 380px;
 
-		ul{
-			font-size: 0;
-		}
+ 		ul{
+ 			font-size: 0;
+ 		}
 
-		li{
-			  display: inline-block;
-              font-size: 12px;
-              line-height: 20px;
-              vertical-align: top;            
-		}
+ 		li{
+ 			display: inline-block;
+ 			font-size: 12px;
+ 			line-height: 20px;
+ 			vertical-align: top;            
+ 		}
 
-		a{
-			  display: block;
-              padding: 7px 20px;
-              text-decoration: none;            
-		}
+ 		a{
+ 			display: block;
+ 			padding: 7px 20px;
+ 			text-decoration: none;            
+ 		}
 
-		a:hover{
-			color: #985e5b;
-		}
-	}
-}
-.user-block{
-	float: right;
-	max-width: 140px;
-	.search{
-	display: inline-block;
-	margin-top: 10px;
-    margin-right: 15px;
+ 		a:hover{
+ 			color: #985e5b;
+ 		}
+ 	}
+ }
+ .user-block{
+ 	float: right;
+ 	max-width: 140px;
+ 	.search{
+ 		display: inline-block;
+ 		margin-top: 10px;
+ 		margin-right: 15px;
 
-    background: url("../img/sprite.png") no-repeat;
-    width: 12px;
-    height: 12px;
-    background-position: -15px -57px;
-	}
+ 		background: url("../img/sprite.png") no-repeat;
+ 		width: 12px;
+ 		height: 12px;
+ 		background-position: -15px -57px;
+ 	}
 
-	.search::after{
-		content: "";
-		position: relative;
-        display: block;
-        right: 18px;
-        top: 2px;
-        
-		width: 2px;
-		height: 10px;
+ 	.search::after{
+ 		content: "";
+ 		position: relative;
+ 		display: block;
+ 		right: 18px;
+ 		top: 2px;
 
-		background-color: #000;
-	}
+ 		width: 2px;
+ 		height: 10px;
 
-	.cart{
-	display: inline-block;
-	margin-top: 10px;
-	margin-right: 9px;
+ 		background-color: #000;
+ 	}
 
-    background: url("../img/sprite.png") no-repeat;
-    width: 15px;
-    height: 12px;
-    background-position: -15px -15px;
-	}
-}
+ 	.cart{
+ 		display: inline-block;
+ 		margin-top: 10px;
+ 		margin-right: 9px;
 
-.courusele{
-   
-   .all-slider{
-   	.slide-1{
-   		background: url("../img/slide-1.jpg") 100% 100%  no-repeat fixed;
-   		width: 100%;
-   		height: 850px;
-        background-size: cover;
+ 		background: url("../img/sprite.png") no-repeat;
+ 		width: 15px;
+ 		height: 12px;
+ 		background-position: -15px -15px;
+ 	}
+ }
 
-   	}
-   }
-   .all-slider img::before{
-  content: '';
-  position: absolute;
-  display: block;
-  background: rgba(0, 0, 0, .5);
-  z-index: 100;
-   }
-    .next,
-   	.prev{
-   		display: inline-block;
-   		position: relative;
-   		bottom: 179px;
-   		width: 55px;
-   		height: 55px;
-   		background: none;
-   		box-shadow: 0 0 0 rgba(0,0,0,0); /* Параметры тени */
-   		border: 2px solid white;
-   		background: url("../img/sprite-arrow.png") no-repeat center;
-   		
-   	}
-   	.next{
-   		background-position: 6px 1px;
-   	}
-   	.prev{
-   		background-position: 4px -48px;
-   	}
-   	.text-slider{
-   	   display: inline-block;
-   	   position: relative;
-       bottom: 200px;
+ .courusele{
 
-       float: right;
+ 	.all-slider{
+ 		.slide-1{
+ 			background: url("../img/slide-1.jpg") 100% 100%  no-repeat fixed;
+            box-shadow:0 0 0 448px rgba(0, 0, 0, 0.33) inset;
+ 			width: 100%;
+ 			height: 850px;
+ 			background-size: cover;
+ 		  
+ 		}
+ 	}
 
-       font-family: 'Montserrat', sans-serif;
-	   font-weight: 700; 
+ }
 
-       b{  
-          font-size: 50px;
-          color: #fff;
-       }
-       span{
-       	  font-size: 30px;
-       	  color: #985e5b;
+ .next,
+ .prev{
+ 	display: inline-block;
+ 	position: relative;
+ 	bottom: 179px;
+ 	width: 55px;
+ 	height: 55px;
+ 	background: none;
+ 	box-shadow: 0 0 0 rgba(0,0,0,0); /* Параметры тени */
+ 	border: 2px solid white;
+ 	background: url("../img/sprite-arrow.png") no-repeat center;
 
-       }
-   	}
-}
+ 	&:hover{
+ 		opacity: 0.3;
+ 	}
+
+ }
+ .next{
+ 	background-position: 6px 1px;
+ }
+ .prev{
+ 	background-position: 4px -48px;
+ }
+ .text-slider{
+ 	display: inline-block;
+ 	position: relative;
+ 	bottom: 200px;
+
+ 	float: right;
+
+ 	font-family: 'Montserrat', sans-serif;
+ 	font-weight: 700; 
+ 	b{  
+
+ 		font-size: 50px;
+ 		word-spacing: 10px;
+ 		color: #fff;
+ 	}
+ 	span{
+ 		font-size: 30px;
+ 		word-spacing: 12px;
+ 		color: #985e5b;
+
+ 	}
+ }

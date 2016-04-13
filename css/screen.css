@@ -149,19 +149,14 @@ body {
 
 .courusele .all-slider .slide-1 {
   background: url("../img/slide-1.jpg") 100% 100% no-repeat fixed;
+  box-shadow: 0 0 0 448px rgba(0, 0, 0, 0.33) inset;
   width: 100%;
   height: 850px;
   background-size: cover;
 }
-.courusele .all-slider img::before {
-  content: '';
-  position: absolute;
-  display: block;
-  background: rgba(0, 0, 0, 0.5);
-  z-index: 100;
-}
-.courusele .next,
-.courusele .prev {
+
+.next,
+.prev {
   display: inline-block;
   position: relative;
   bottom: 179px;
@@ -173,13 +168,20 @@ body {
   border: 2px solid white;
   background: url("../img/sprite-arrow.png") no-repeat center;
 }
-.courusele .next {
+.next:hover,
+.prev:hover {
+  opacity: 0.3;
+}
+
+.next {
   background-position: 6px 1px;
 }
-.courusele .prev {
+
+.prev {
   background-position: 4px -48px;
 }
-.courusele .text-slider {
+
+.text-slider {
   display: inline-block;
   position: relative;
   bottom: 200px;
@@ -187,11 +189,13 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
 }
-.courusele .text-slider b {
+.text-slider b {
   font-size: 50px;
+  word-spacing: 10px;
   color: #fff;
 }
-.courusele .text-slider span {
+.text-slider span {
   font-size: 30px;
+  word-spacing: 12px;
   color: #985e5b;
 }
