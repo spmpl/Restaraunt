@@ -193,17 +193,20 @@ body {
   font-size: 50px;
   word-spacing: 10px;
   color: #fff;
+  letter-spacing: 10px;
 }
 .text-slider span {
   font-size: 30px;
   word-spacing: 12px;
   color: #985e5b;
+  letter-spacing: 0;
 }
 
 .about-gallery {
   float: left;
   margin-left: 120px;
   margin-right: 80px;
+  margin-bottom: 175px;
 }
 .about-gallery .about-photo-1 img {
   margin-left: 50px;
@@ -223,6 +226,7 @@ body {
 .about-text h2 {
   margin-bottom: 10px;
   font-size: 50px;
+  letter-spacing: 10px;
 }
 .about-text b {
   font-size: 12px;
@@ -232,4 +236,61 @@ body {
 .about-text p {
   margin-top: 45px;
   font-weight: 400;
+  color: #404040;
+}
+.about-text #up-text {
+  margin-top: 20px;
+}
+.about-text .read-more a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #000;
+}
+
+.main-lunch {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.collum-left-lunch {
+  float: left;
+  margin-left: 70px;
+  margin-top: 155px;
+  margin-right: 55px;
+}
+.collum-left-lunch h2 {
+  margin-bottom: 10px;
+  font-size: 50px;
+  letter-spacing: 10px;
+}
+.collum-left-lunch b {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #985e5b;
+}
+
+.collum-right-lunch {
+  float: right;
+  margin-right: 254px;
+}
+.collum-right-lunch .slider {
+  position: relative;
+}
+.collum-right-lunch .second-slide {
+  position: absolute;
+  left: 103px;
+  bottom: 13px;
+  z-index: -1;
+}
+.collum-right-lunch .third-slide {
+  position: absolute;
+  bottom: 33px;
+  z-index: -2;
+  left: 175px;
+}
+.collum-right-lunch .fourth-slide {
+  position: absolute;
+  bottom: 33px;
+  left: 262px;
+  z-index: -3;
 }
