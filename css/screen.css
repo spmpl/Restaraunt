@@ -355,6 +355,7 @@ body {
 }
 
 .main-menu {
+  margin-bottom: 100px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
 }
@@ -362,6 +363,7 @@ body {
   float: left;
   margin-left: 160px;
   margin-top: 24px;
+  margin-right: 80px;
 }
 .main-menu .collum-left-menu h2 {
   margin-bottom: 10px;
@@ -400,11 +402,40 @@ body {
 .main-menu .collum-right-menu {
   position: relative;
   float: right;
-  margin-right: 140px;
+  margin-right: 135px;
 }
 .main-menu .collum-right-menu .photo-menu-2 {
   position: relative;
   margin-top: -94px;
   margin-left: -109px;
   z-index: -1;
+}
+
+.main-quote-parallax {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.collum-left-quote {
+  float: left;
+  margin-left: 115px;
+}
+
+.collum-right-quote {
+  margin-right: 120px;
+  float: right;
+  text-align: center;
+  margin-top: 256px;
+}
+.collum-right-quote h2 {
+  width: 444px;
+  font-size: 25px;
+  line-height: 38px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.collum-right-quote p {
+  font-size: 12px;
+  text-transform: uppercase;
 }
