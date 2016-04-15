@@ -174,11 +174,11 @@ body {
 }
 
 .next {
-  background-position: 6px 1px;
+  background-position: 0px -115px;
 }
 
 .prev {
-  background-position: 4px -48px;
+  background-position: -3px -174px;
 }
 
 .text-slider {
@@ -285,12 +285,55 @@ body {
 .collum-right-lunch .third-slide {
   position: absolute;
   bottom: 33px;
-  z-index: -2;
   left: 175px;
+  z-index: -2;
 }
 .collum-right-lunch .fourth-slide {
   position: absolute;
   bottom: 33px;
   left: 262px;
   z-index: -3;
+}
+.collum-right-lunch .change {
+  position: absolute;
+  right: 50px;
+  top: 80px;
+  width: 100px;
+  height: 50px;
+  background-color: #edeff2;
+}
+.collum-right-lunch .change span {
+  position: absolute;
+  top: 17px;
+  right: 28px;
+}
+.collum-right-lunch .next-slide,
+.collum-right-lunch .prev-slide {
+  display: inline-block;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  margin-left: -23px;
+  box-shadow: 0 0 0 transparent;
+  border: none;
+  outline: none;
+  background: #fff url("../img/sprite-arrow.png") no-repeat center;
+}
+.collum-right-lunch .next-slide:hover,
+.collum-right-lunch .prev-slide:hover {
+  background-color: #985e5b;
+}
+.collum-right-lunch .prev-slide {
+  top: 189px;
+  background-position: -2px 2px;
+}
+.collum-right-lunch .prev-slide:hover {
+  background-position: -1px -172px;
+}
+.collum-right-lunch .next-slide {
+  top: 127px;
+  background-position: 0px -229px;
+}
+.collum-right-lunch .next-slide:hover {
+  background-position: 4px -113px;
 }
