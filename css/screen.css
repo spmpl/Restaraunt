@@ -217,8 +217,9 @@ body {
 
 .about-text {
   display: inline-block;
-  width: 215px;
+  width: 331px;
   margin-right: 141px;
+  margin-top: 30px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   float: right;
@@ -237,17 +238,27 @@ body {
   margin-top: 45px;
   font-weight: 400;
   color: #404040;
+  font-size: 12px;
+  line-height: 30px;
 }
 .about-text #up-text {
   margin-top: 20px;
+  font-size: 12px;
+  line-height: 30px;
+}
+.about-text .read-more {
+  letter-spacing: 2px;
+  font-weight: 700;
+  margin-top: 0px;
 }
 .about-text .read-more a {
   text-decoration: none;
-  font-size: 25px;
-  color: #000;
+  font-size: 30px;
+  color: #404040;
 }
 
 .main-lunch {
+  margin-bottom: 200px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
 }
@@ -336,4 +347,64 @@ body {
 }
 .collum-right-lunch .next-slide:hover {
   background-position: 4px -113px;
+}
+.collum-right-lunch .food-name {
+  position: absolute;
+  bottom: -30px;
+  font-size: 15px;
+}
+
+.main-menu {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+.main-menu .collum-left-menu {
+  float: left;
+  margin-left: 160px;
+  margin-top: 24px;
+}
+.main-menu .collum-left-menu h2 {
+  margin-bottom: 10px;
+  margin-right: -10px;
+  font-size: 50px;
+  letter-spacing: 10px;
+  text-align: right;
+}
+.main-menu .collum-left-menu .top-menu-text {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #985e5b;
+  text-align: right;
+  font-weight: bold;
+}
+.main-menu .collum-left-menu p {
+  width: 325px;
+  margin-top: 20px;
+  font-weight: 400;
+  text-align: right;
+  letter-spacing: 2px;
+  font-size: 12px;
+  line-height: 30px;
+  color: #404040;
+}
+.main-menu .collum-left-menu .read-more-menu {
+  margin-top: 20px;
+  font-weight: 700;
+  text-align: right;
+  font-size: 30px;
+}
+.main-menu .collum-left-menu .read-more-menu a {
+  text-decoration: none;
+  color: #404040;
+}
+.main-menu .collum-right-menu {
+  position: relative;
+  float: right;
+  margin-right: 140px;
+}
+.main-menu .collum-right-menu .photo-menu-2 {
+  position: relative;
+  margin-top: -94px;
+  margin-left: -109px;
+  z-index: -1;
 }
