@@ -407,6 +407,7 @@
 .main-quote-parallax{
 	font-family: 'Montserrat', sans-serif;
  	font-weight: 400;
+ 	margin-bottom: 200px;
 }
 
  .collum-left-quote{
@@ -434,3 +435,118 @@
  		text-transform: uppercase;
  	}
  }
+.main-reservation{
+	margin-bottom: 90px;
+}
+ .collum-left-reserv{
+ 	position: relative;
+ 	float: left;
+ 	margin-left: 140px;
+ 	
+ 	.photo-reserv-2{
+ 	position: absolute;
+    z-index: -1;
+    margin-top: -80px;
+    margin-left: 55px;
+ 	}
+ }
+
+ .collum-right-reserv{
+ 	float: right;
+ 	margin-top: 30px;
+ 	margin-right: 140px;
+ 	margin-left: 20px;
+
+ 	font-family: 'Montserrat', sans-serif;
+ 	font-weight: 700;
+ 	h2{
+        font-size: 50px;
+        letter-spacing: 10px;
+ 	}
+    
+    p{
+    width: 357px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    color: #404040;
+    }
+    .top-reserv-text{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #985e5b;
+    font-weight: bold;
+    }
+    .read-more-reserv{
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 30px;
+    a{
+    text-decoration: none;
+    color: #404040;
+    }
+    }
+ }
+.main-services{
+  font-family: 'Montserrat', sans-serif;
+}
+ .services-top-content{
+ 	text-align: center;
+ 	margin-bottom: 185px;
+ 	h2{
+ 	font-size: 50px;
+    letter-spacing: 10px;
+    font-weight: 700;
+ 	}
+    p{
+    margin-top: 15px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #985e5b;
+    font-weight: bold;
+    }
+ }
+
+
+
+     .services-bottom-content{
+     margin-left: 125px;
+     float: left;
+     margin-bottom: 130px;
+     h3{
+     	display: inline-block;
+     	width: 258px;
+     	margin-right: 135px;
+     }
+     h3:last-child{
+     	margin-right: 0;
+     }
+     }
+
+.order-now-content{
+     background: url("../img/order-now.jpg") 100% 100% no-repeat fixed;;
+     width: 100%;
+     height: 200px;
+     background-size: contain;
+     text-align: center;
+
+     button{
+     	margin-top: 100px;
+     	width: 170px;
+        height: 50px;
+        text-transform: uppercase;
+        background-color: #1e2633;
+        border: none;
+        outline: none;
+        color: #fff;
+        font-weight: 400;
+        font-family: 'Montserrat', sans-serif;
+        &:hover{
+            background-color: #985e5b;
+        }
+     }
+}
