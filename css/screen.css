@@ -631,6 +631,7 @@ body {
 
 .main-contact {
   font-family: 'Montserrat', sans-serif;
+  margin-bottom: 130px;
 }
 
 .left-collum-contact {
@@ -682,4 +683,53 @@ body {
   z-index: -1;
   margin-top: -125px;
   margin-left: -109px;
+}
+
+.main-footer {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 30px;
+}
+.main-footer .logo {
+  float: left;
+  display: inline-block;
+}
+.main-footer .footer-social-button {
+  position: relative;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+  float: right;
+}
+.main-footer .footer-social-button p {
+  position: absolute;
+  margin-top: -14px;
+  left: -80px;
+}
+.main-footer .social-btn {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: #fff url("../img/social-sprite.png") no-repeat center;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  border: 2px #1e2633 solid;
+  margin-top: -25px;
+}
+.main-footer .button-fb {
+  background-position: -8px -11px;
+}
+.main-footer .button-twitter {
+  background-position: -12px -114px;
+}
+.main-footer .button-gplus {
+  background-position: -10px -62px;
+}
+
+.footer-copyright p {
+  font-size: 12px;
+  padding-top: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
 }
