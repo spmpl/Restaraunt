@@ -532,10 +532,10 @@ body {
 }
 
 .order-now-content {
-  background: url("../img/order-now.jpg") 100% 100% no-repeat fixed;
+  background: url("../img/order-now.jpg") 100% 100% no-repeat;
   width: 100%;
   height: 200px;
-  background-size: contain;
+  background-size: cover;
   text-align: center;
 }
 .order-now-content button {
@@ -553,4 +553,133 @@ body {
 }
 .order-now-content button:hover {
   background-color: #985e5b;
+}
+
+.main-blog {
+  margin-top: 95px;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 200px;
+}
+
+.main-blog-up-title {
+  text-align: center;
+  margin-bottom: 55px;
+}
+.main-blog-up-title h2 {
+  font-size: 50px;
+  letter-spacing: 10px;
+  font-weight: 700;
+}
+.main-blog-up-title p {
+  margin-top: 15px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #985e5b;
+  font-weight: bold;
+}
+
+.main-blog-bottom-news {
+  position: relative;
+}
+.main-blog-bottom-news .blog-photo {
+  margin-right: 100px;
+  display: block;
+  float: left;
+}
+.main-blog-bottom-news .blog-photo time {
+  position: absolute;
+  margin-left: -190px;
+  margin-top: 90px;
+  font-size: 14px;
+}
+.main-blog-bottom-news .blog-photo span {
+  position: absolute;
+  bottom: -140px;
+  top: 146px;
+  margin-left: -221px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.main-blog-bottom-news .blog-photo .read-more-blog {
+  position: absolute;
+  top: 210px;
+  margin-left: 149px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.main-blog-bottom-news .blog-photo .read-more-blog a {
+  text-decoration: none;
+  color: #404040;
+}
+.main-blog-bottom-news .blog-photo:last-child {
+  margin-right: 0;
+}
+.main-blog-bottom-news .blog-photo:nth-child(2) span {
+  margin-left: -200px;
+}
+.main-blog-bottom-news .blog-photo::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 296px;
+  height: 296px;
+  margin-left: 15px;
+  margin-top: 15px;
+  background-color: #fff;
+}
+
+.main-contact {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.left-collum-contact {
+  display: inline-block;
+  margin-left: 160px;
+  margin-right: 80px;
+  margin-top: 35px;
+}
+.left-collum-contact h2 {
+  margin-left: 98px;
+  font-size: 50px;
+  letter-spacing: 10px;
+  font-weight: 700;
+}
+.left-collum-contact .top-contact-text {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #985e5b;
+  font-weight: bold;
+}
+.left-collum-contact p {
+  width: 357px;
+  text-align: right;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 2px;
+  line-height: 30px;
+  color: #404040;
+}
+.left-collum-contact .read-more-contact {
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 30px;
+}
+.left-collum-contact .read-more-contact a {
+  text-decoration: none;
+  color: #404040;
+}
+
+.right-collum-contact {
+  position: relative;
+  float: right;
+  margin-right: 65px;
+}
+.right-collum-contact .contact-photo-2 {
+  position: absolute;
+  z-index: -1;
+  margin-top: -125px;
+  margin-left: -109px;
 }
