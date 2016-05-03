@@ -719,9 +719,7 @@ body {
   float: right;
 }
 .main-footer .footer-social-button p {
-  position: absolute;
   margin-top: -14px;
-  left: -80px;
 }
 .main-footer .social-btn {
   display: inline-block;
@@ -733,6 +731,8 @@ body {
   border-radius: 50px;
   border: 2px #1e2633 solid;
   margin-top: -25px;
+  font-size: 0;
+  text-decoration: none;
 }
 .main-footer .button-fb {
   background-position: -8px -11px;
@@ -745,8 +745,8 @@ body {
 }
 
 .footer-copyright p {
+  display: inline-block;
   font-size: 12px;
-  padding-top: 10px;
   text-transform: uppercase;
   font-weight: 700;
 }

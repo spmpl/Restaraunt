@@ -714,9 +714,8 @@ p{
       text-transform: uppercase;
       font-weight: 700;
       float: right;
-      p{  position: absolute;
+      p{  
         margin-top: -14px;
-        left: -80px; 
     }
 }
 .social-btn{
@@ -729,6 +728,8 @@ p{
 	border-radius: 50px;
 	border:2px #1e2633 solid;
 	margin-top: -25px;
+    font-size: 0;
+    text-decoration: none;
 }
 .button-fb{
   background-position: -8px -11px;
@@ -742,9 +743,9 @@ p{
 }
 .footer-copyright{
 	
-    p{   
-    	font-size: 12px;
-      padding-top: 10px;
+    p{
+      display: inline-block;   
+      font-size: 12px;
       text-transform: uppercase;
       font-weight: 700;
   }
